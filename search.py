@@ -2,7 +2,7 @@ import random
 unique_set = set()
 
 while len(unique_set) < 100:
-    unique_set.add(random.randint(0, 1000000))
+    unique_set.add(random.randint(0, 1_000_000))
 collection = sorted(list(unique_set))
 print("Отсортированный список из 100 случайных целых чисел:")
 print(collection)
