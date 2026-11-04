@@ -24,7 +24,6 @@ index_b = -1
 
 while (first <= last) and (index_b == -1):
     schetchik_b = schetchik_b + 1                                # Считаем проверку
-    
     mid = (first + last) // 2
     if collection[mid] == element:
         index_b = mid
